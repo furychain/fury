@@ -1,0 +1,62 @@
+version: 1
+accounts:
+  - name: treasury
+    coins: ["9000000000000umerlin"]
+  - name: seed
+    coins: ["1000000000000umerlin"]
+validators:
+  - name: treasury
+    bonded: "1000000000000umerlin"
+genesis:
+  app_state:
+    bank:
+      balances:
+        - address: "merlin1kypq29kggkextekt869pwpfukj6lsw38c8a43w"
+          coins: [{"denom": "umerlin", "amount": "500000000000"}]
+      supply:
+        - denom: "umerlin"
+          amount: "500000000000"
+    staking:
+      params:
+        bond_denom: "umerlin"
+    crisis:
+      constant_fee:
+        denom: "umerlin"
+        amount: "1000"
+    ovm:
+      key_vault:
+        public_keys: [
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAdUWfzVUf4BqsHvErsJoXIaIpO60CHXfaaef+xKU3bbY=\n-----END PUBLIC KEY-----",
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEA58w+676YVp61kjXDrteK8hDxulq5zbF6sNHQt3Lt5Ng=\n-----END PUBLIC KEY-----",
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAw5iPKVbSvyF1A1HDFaWMGlhBp/xTU70i8lMgOml79WM=\n-----END PUBLIC KEY-----",
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAueEgZMdKn6Bp0mcG04HrNAt1a0o7+0eNliQCNmbxkOQ=\n-----END PUBLIC KEY-----",
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAkMnWRwXXVlQqhpHq7LNVGwqA/E2LQY/6remOtilPKpI=\n-----END PUBLIC KEY-----",
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAeEQoiCf6zmsT0ViyY6HFoYhjG+Q4yULkeKCWDQjwpMY=\n-----END PUBLIC KEY-----",
+          "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAef9+By/RbBXdSycfWlfVA1jNnWqcjZ7PI8Tt+pTPe+I=\n-----END PUBLIC KEY-----"
+        ]
+    gov:
+      deposit_params:
+        min_deposit: [{ amount: "1", denom: "umerlin" }]
+    mint:
+      minter:
+        phase_provisions: "100000000000000.000000000000000000"
+        inflation: "0.1"
+        phase_step: "1"
+        truncated_tokens: "0"
+      params:
+        mint_denom: "umerlin"
+        blocks_per_year: "100"
+        phases:
+          [
+            { inflation: "0.100000000000000000", year_coefficient: "1" },
+          ]
+        exclude_amount: "500000000000"
+    market:
+      params:
+        min_bet_amount: "1000000"
+        min_bet_fee: "0"
+        max_bet_fee: "100"
+        max_sr_contribution: "100000000"
+    strategicreserve:
+      params:
+        requeue_threshold: "1000"

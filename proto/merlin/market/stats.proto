@@ -1,0 +1,11 @@
+syntax = "proto3";
+package merlinnetwork.merlin.market;
+
+option go_package = "github.com/merlin-network/merlin/x/market/types";
+
+// MarketStats holds statistics of the market
+message MarketStats {
+  // resolved_unsettled is the list of universal unique identifiers
+  // of resolved markets that have unsettled bets
+  repeated string resolved_unsettled = 1;
+}

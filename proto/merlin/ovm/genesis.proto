@@ -1,0 +1,24 @@
+syntax = "proto3";
+package merlinnetwork.merlin.ovm;
+
+import "gogoproto/gogo.proto";
+import "merlin/ovm/params.proto";
+import "merlin/ovm/key_vault.proto";
+import "merlin/ovm/proposal.proto";
+import "merlin/ovm/stats.proto";
+
+option go_package = "github.com/merlin-network/merlin/x/ovm/types";
+
+// GenesisState defines the ovm module's genesis state.
+message GenesisState {
+  // params contains parameters of ovm module.
+  Params params = 1 [ (gogoproto.nullable) = false ];
+  // key_vault trusted keys from genesis file.
+  KeyVault key_vault = 2 [ (gogoproto.nullable) = false ];
+  // pubkeys_change_proposals is the finished proposal list for the
+  // public keys change.
+  repeated PublicKeysChangeProposal pubkeys_change_proposals = 3
+      [ (gogoproto.nullable) = false ];
+  // proposal_stats holds the proposal statistics.
+  ProposalStats proposal_stats = 4 [ (gogoproto.nullable) = false ];
+}

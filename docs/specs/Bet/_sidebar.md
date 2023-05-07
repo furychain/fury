@@ -1,0 +1,17 @@
+<!-- docs/_sidebar.md -->
+
+* [About MERLIN Network](../../README.md)
+* [Modules](../README.md)
+  * [Bet](../Bet/01_Overview.md)
+    * [Overview](../Bet/01_Overview.md)
+    * [Concepts](../Bet/02_Concepts.md)
+    * [Accounts](../Bet/03_Accounts.md)
+    * [State](../Bet/04_State.md)
+    * [State Transitions](../Bet/05_State_Transitions.md)
+    * [Messages](../Bet/06_Messages.md)
+    * [Events](../Bet/07_Events.md)
+  * [OVM](../OVM/01_Overview.md)
+  * [Mint](../Mint/01_Overview.md)
+  * [Market](../Market/01_Overview.md)
+  * [House](../House/01_Overview.md)
+  * [Strategic Reserve](../StrategicReserve/01_Overview.md)
