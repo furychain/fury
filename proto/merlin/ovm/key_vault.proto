@@ -1,9 +1,9 @@
 syntax = "proto3";
-package merlinnetwork.merlin.ovm;
+package furynetwork.fury.ovm;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/ovm/types";
+option go_package = "github.com/furychain/fury/x/ovm/types";
 
 // KeyVault is the information of important keys stored in ovm state.
 message KeyVault {

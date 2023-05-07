@@ -3,7 +3,7 @@ package keeper
 import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/x/bet/types"
 )
 
 // getBetStore returns bet store ready for iterating

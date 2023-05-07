@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/merlin-network/merlin/utils"
+	"github.com/furychain/fury/utils"
 )
 
 // DefaultUID is the default  global uid

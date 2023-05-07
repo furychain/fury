@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/types"
 	"github.com/spf13/cobra"
 )
 

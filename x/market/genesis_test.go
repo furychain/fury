@@ -3,10 +3,10 @@ package market_test
 import (
 	"testing"
 
-	"github.com/merlin-network/merlin/testutil/nullify"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	market "github.com/merlin-network/merlin/x/market"
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/testutil/nullify"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	market "github.com/furychain/fury/x/market"
+	"github.com/furychain/fury/x/market/types"
 	"github.com/stretchr/testify/require"
 )
 

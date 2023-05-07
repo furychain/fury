@@ -6,8 +6,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/golang-jwt/jwt"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/market/keeper"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/market/keeper"
 	"github.com/stretchr/testify/require"
 )
 

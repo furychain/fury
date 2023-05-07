@@ -9,7 +9,7 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/errors"
-	minttypes "github.com/merlin-network/merlin/x/mint/types"
+	minttypes "github.com/furychain/fury/x/mint/types"
 	"github.com/spf13/cast"
 )
 

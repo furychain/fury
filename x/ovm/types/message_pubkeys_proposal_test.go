@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/testutil/sample"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/testutil/sample"
+	"github.com/furychain/fury/x/ovm/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,7 +5,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/spf13/cast"
 
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/types"
 )
 
 // SetDeposit sets a deposit in the store

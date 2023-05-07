@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/x/ovm/keeper"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/keeper"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 // NewHandler initialize a new sdk.handler instance for registered messages

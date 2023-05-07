@@ -1,7 +1,7 @@
 syntax = "proto3";
-package merlinnetwork.merlin.mint;
+package furynetwork.fury.mint;
 
-option go_package = "github.com/merlin-network/merlin/x/mint/types";
+option go_package = "github.com/furychain/fury/x/mint/types";
 
 import "gogoproto/gogo.proto";
 

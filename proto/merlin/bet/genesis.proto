@@ -1,12 +1,12 @@
 syntax = "proto3";
-package merlinnetwork.merlin.bet;
+package furynetwork.fury.bet;
 
 import "gogoproto/gogo.proto";
-import "merlin/bet/params.proto";
-import "merlin/bet/bet.proto";
-import "merlin/bet/stats.proto";
+import "fury/bet/params.proto";
+import "fury/bet/bet.proto";
+import "fury/bet/stats.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/bet/types";
+option go_package = "github.com/furychain/fury/x/bet/types";
 
 // GenesisState defines the bet module's genesis state.
 message GenesisState {

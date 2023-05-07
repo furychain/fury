@@ -2,8 +2,8 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/utils"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/utils"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 // SetProposalStats sets proposal statistics in the store

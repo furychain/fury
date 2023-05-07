@@ -8,9 +8,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/kv"
-	"github.com/merlin-network/merlin/app"
-	"github.com/merlin-network/merlin/x/mint/simulation"
-	"github.com/merlin-network/merlin/x/mint/types"
+	"github.com/furychain/fury/app"
+	"github.com/furychain/fury/x/mint/simulation"
+	"github.com/furychain/fury/x/mint/types"
 )
 
 func TestDecodeStore(t *testing.T) {

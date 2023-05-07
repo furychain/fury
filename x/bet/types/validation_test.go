@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	merlintypes "github.com/merlin-network/merlin/types"
-	"github.com/merlin-network/merlin/x/bet/types"
+	furytypes "github.com/furychain/fury/types"
+	"github.com/furychain/fury/x/bet/types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -84,7 +84,7 @@ func TestTicketFieldsValidation(t *testing.T) {
 	tcs := []struct {
 		desc     string
 		betOdds  *types.BetOdds
-		kyc      merlintypes.KycDataPayload
+		kyc      furytypes.KycDataPayload
 		oddsType types.OddsType
 		err      error
 	}{
@@ -96,7 +96,7 @@ func TestTicketFieldsValidation(t *testing.T) {
 				Value:             "10",
 				MaxLossMultiplier: sdk.MustNewDecFromStr("0.1"),
 			},
-			kyc: merlintypes.KycDataPayload{
+			kyc: furytypes.KycDataPayload{
 				Ignore:   true,
 				Approved: true,
 				ID:       testAddress,
@@ -112,7 +112,7 @@ func TestTicketFieldsValidation(t *testing.T) {
 				Value:             "10",
 				MaxLossMultiplier: sdk.MustNewDecFromStr("0.1"),
 			},
-			kyc: merlintypes.KycDataPayload{
+			kyc: furytypes.KycDataPayload{
 				Approved: true,
 				ID:       testAddress,
 			},
@@ -127,7 +127,7 @@ func TestTicketFieldsValidation(t *testing.T) {
 				Value:             "",
 				MaxLossMultiplier: sdk.MustNewDecFromStr("0.1"),
 			},
-			kyc: merlintypes.KycDataPayload{
+			kyc: furytypes.KycDataPayload{
 				Approved: true,
 				ID:       testAddress,
 			},
@@ -153,7 +153,7 @@ func TestTicketFieldsValidation(t *testing.T) {
 				Value:             "10",
 				MaxLossMultiplier: sdk.MustNewDecFromStr("0.1"),
 			},
-			kyc: merlintypes.KycDataPayload{
+			kyc: furytypes.KycDataPayload{
 				Approved: true,
 				ID:       "",
 			},
@@ -168,7 +168,7 @@ func TestTicketFieldsValidation(t *testing.T) {
 				Value:             "10",
 				MaxLossMultiplier: sdk.MustNewDecFromStr("0.1"),
 			},
-			kyc: merlintypes.KycDataPayload{
+			kyc: furytypes.KycDataPayload{
 				Approved: true,
 				ID:       testAddress,
 			},

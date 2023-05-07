@@ -3,10 +3,10 @@ package ovm_test
 import (
 	"testing"
 
-	"github.com/merlin-network/merlin/testutil/nullify"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/ovm"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/testutil/nullify"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/ovm"
+	"github.com/furychain/fury/x/ovm/types"
 	"github.com/stretchr/testify/require"
 )
 

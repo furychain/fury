@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/types"
 	"github.com/spf13/cobra"
 )
 

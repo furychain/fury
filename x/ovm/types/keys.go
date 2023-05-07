@@ -1,6 +1,6 @@
 package types
 
-import "github.com/merlin-network/merlin/utils"
+import "github.com/furychain/fury/utils"
 
 // module constants
 const (

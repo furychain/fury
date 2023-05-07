@@ -1,10 +1,10 @@
 syntax = "proto3";
-package merlinnetwork.merlin.house;
+package furynetwork.fury.house;
 
 import "gogoproto/gogo.proto";
-import "merlin/house/withdraw.proto";
+import "fury/house/withdraw.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/house/types";
+option go_package = "github.com/furychain/fury/x/house/types";
 
 // Msg defines the house Msg service.
 service Msg {

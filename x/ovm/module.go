@@ -16,9 +16,9 @@ import (
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/merlin-network/merlin/x/ovm/client/cli"
-	"github.com/merlin-network/merlin/x/ovm/keeper"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/client/cli"
+	"github.com/furychain/fury/x/ovm/keeper"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 var (

@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/ovm/types"
 	"github.com/stretchr/testify/require"
 )
 

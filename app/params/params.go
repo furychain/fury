@@ -3,11 +3,11 @@ package params
 // App Parameters
 const (
 	// HumanCoinUnit is human readable representation of the coin name
-	HumanCoinUnit = "merlin"
+	HumanCoinUnit = "fury"
 	// BaseCoinUnit is the actual name of coin used in transaction
-	BaseCoinUnit = "umerlin"
-	// MERLINExponent is the exponential digits of the coin
-	MERLINExponent = 6
+	BaseCoinUnit = "ufury"
+	// FURYExponent is the exponential digits of the coin
+	FURYExponent = 6
 	// DefaultBondDenom is the default staking denom of application
 	DefaultBondDenom = BaseCoinUnit
 )

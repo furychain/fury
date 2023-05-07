@@ -8,7 +8,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 // Keeper is the type for module properties

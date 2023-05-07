@@ -1,11 +1,11 @@
 syntax = "proto3";
-package merlinnetwork.merlin.ovm;
+package furynetwork.fury.ovm;
 
 import "gogoproto/gogo.proto";
-import "merlin/ovm/ticket.proto";
-import "merlin/ovm/vote.proto";
+import "fury/ovm/ticket.proto";
+import "fury/ovm/vote.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/ovm/types";
+option go_package = "github.com/furychain/fury/x/ovm/types";
 
 // PublicKeysChangeProposal is the type for the proposal for additions and
 // removals of pub keys.

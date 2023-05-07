@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/cosmos/cosmos-sdk/std"
-	"github.com/merlin-network/merlin/app/params"
+	"github.com/furychain/fury/app/params"
 )
 
 // MakeEncodingConfig creates an EncodingConfig for testing

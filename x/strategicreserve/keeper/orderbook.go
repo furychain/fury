@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/merlin-network/merlin/x/strategicreserve/types"
+	"github.com/furychain/fury/x/strategicreserve/types"
 )
 
 // SetOrderBook sets an order book.

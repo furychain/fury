@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/merlin-network/merlin/x/strategicreserve/types"
+	"github.com/furychain/fury/x/strategicreserve/types"
 	"github.com/spf13/cobra"
 )
 

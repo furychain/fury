@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/merlin-network/merlin/x/house/keeper"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/keeper"
+	"github.com/furychain/fury/x/house/types"
 )
 
 // NewHandler returns sdk.handler instance with configured message handler function

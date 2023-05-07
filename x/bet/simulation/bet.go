@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/merlin-network/merlin/x/bet/keeper"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/x/bet/keeper"
+	"github.com/furychain/fury/x/bet/types"
 	"github.com/spf13/cast"
 )
 

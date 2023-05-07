@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/merlin-network/merlin/utils"
+	"github.com/furychain/fury/utils"
 )
 
 // GetLeader sets the current leader of public keys.

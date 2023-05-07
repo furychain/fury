@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/testutil/nullify"
-	"github.com/merlin-network/merlin/x/market/keeper"
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/testutil/nullify"
+	"github.com/furychain/fury/x/market/keeper"
+	"github.com/furychain/fury/x/market/types"
 	"github.com/spf13/cast"
 	"github.com/stretchr/testify/require"
 )

@@ -39,24 +39,24 @@ import (
 	ibctransfertypes "github.com/cosmos/ibc-go/v3/modules/apps/transfer/types"
 	ibc "github.com/cosmos/ibc-go/v3/modules/core"
 	ibchost "github.com/cosmos/ibc-go/v3/modules/core/24-host"
-	merlinappparams "github.com/merlin-network/merlin/app/params"
-	"github.com/merlin-network/merlin/x/mint"
-	minttypes "github.com/merlin-network/merlin/x/mint/types"
+	furyappparams "github.com/furychain/fury/app/params"
+	"github.com/furychain/fury/x/mint"
+	minttypes "github.com/furychain/fury/x/mint/types"
 
-	betmodule "github.com/merlin-network/merlin/x/bet"
-	betmoduletypes "github.com/merlin-network/merlin/x/bet/types"
+	betmodule "github.com/furychain/fury/x/bet"
+	betmoduletypes "github.com/furychain/fury/x/bet/types"
 
-	marketmodule "github.com/merlin-network/merlin/x/market"
-	marketmoduletypes "github.com/merlin-network/merlin/x/market/types"
+	marketmodule "github.com/furychain/fury/x/market"
+	marketmoduletypes "github.com/furychain/fury/x/market/types"
 
-	strategicreservemodule "github.com/merlin-network/merlin/x/strategicreserve"
-	strategicreservemoduletypes "github.com/merlin-network/merlin/x/strategicreserve/types"
+	strategicreservemodule "github.com/furychain/fury/x/strategicreserve"
+	strategicreservemoduletypes "github.com/furychain/fury/x/strategicreserve/types"
 
-	ovmmodule "github.com/merlin-network/merlin/x/ovm"
-	ovmmoduletypes "github.com/merlin-network/merlin/x/ovm/types"
+	ovmmodule "github.com/furychain/fury/x/ovm"
+	ovmmoduletypes "github.com/furychain/fury/x/ovm/types"
 
-	housemodule "github.com/merlin-network/merlin/x/house"
-	housemoduletypes "github.com/merlin-network/merlin/x/house/types"
+	housemodule "github.com/furychain/fury/x/house"
+	housemoduletypes "github.com/furychain/fury/x/house/types"
 
 	// unnamed import of statik for swagger UI support
 	_ "github.com/cosmos/cosmos-sdk/client/docs/statik"
@@ -111,8 +111,8 @@ var ModuleBasics = module.NewBasicManager(
 )
 
 func appModules(
-	app *MerlinApp,
-	encodingConfig merlinappparams.EncodingConfig,
+	app *FuryApp,
+	encodingConfig furyappparams.EncodingConfig,
 	skipGenesisInvariants bool,
 ) []module.AppModule {
 	appCodec := encodingConfig.Marshaler
@@ -155,8 +155,8 @@ func appModules(
 // simulationModules returns modules for simulation manager
 // define the order of the modules for deterministic simulations
 func simulationModules(
-	app *MerlinApp,
-	encodingConfig merlinappparams.EncodingConfig,
+	app *FuryApp,
+	encodingConfig furyappparams.EncodingConfig,
 	_ bool,
 ) []module.AppModuleSimulation {
 	appCodec := encodingConfig.Marshaler

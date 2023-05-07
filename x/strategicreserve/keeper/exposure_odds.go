@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/merlin-network/merlin/x/strategicreserve/types"
+	"github.com/furychain/fury/x/strategicreserve/types"
 )
 
 // SetOrderBookOddsExposure sets a book odds exposure.

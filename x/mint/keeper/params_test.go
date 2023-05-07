@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/merlin-network/merlin/x/mint/types"
+	"github.com/furychain/fury/x/mint/types"
 	"github.com/stretchr/testify/require"
 )
 

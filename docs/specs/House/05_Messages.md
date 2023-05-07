@@ -63,7 +63,7 @@ This ticket is being used for validating the KYC.
 // DepositTicketPayload indicates data of the deposit ticket.
 message DepositTicketPayload {
   // kyc_data contains the details of user kyc.
-  merlinnetwork.merlin.type.KycDataPayload kyc_data = 1
+  furynetwork.fury.type.KycDataPayload kyc_data = 1
       [ (gogoproto.nullable) = false ];
 }
 ```
@@ -149,7 +149,7 @@ This ticket is being used for validating the KYC.
 // WithdrawTicketPayload indicates data of the withdrawal ticket.
 message WithdrawTicketPayload {
   // kyc_data contains the details of user kyc.
-  merlinnetwork.merlin.type.KycDataPayload kyc_data = 1
+  furynetwork.fury.type.KycDataPayload kyc_data = 1
       [ (gogoproto.nullable) = false ];
 }
 ```

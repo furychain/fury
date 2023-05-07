@@ -1,22 +1,22 @@
 
 syntax = "proto3";
-package merlinnetwork.merlin.bet;
+package furynetwork.fury.bet;
 
 import "gogoproto/gogo.proto";
-import "merlin/type/kyc.proto";
-import "merlin/bet/bet_odds.proto";
-import "merlin/bet/odds_type.proto";
+import "fury/type/kyc.proto";
+import "fury/bet/bet_odds.proto";
+import "fury/bet/odds_type.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/bet/types";
+option go_package = "github.com/furychain/fury/x/bet/types";
 
 // BetPlacementTicketPayload indicates data of bet placement ticket.
 message BetPlacementTicketPayload {
   // selected_odds is the user-selected odds to place bet.
   BetOdds selected_odds = 1;
   // kyc_data contains the details of user kyc.
-  merlinnetwork.merlin.type.KycDataPayload kyc_data = 2
+  furynetwork.fury.type.KycDataPayload kyc_data = 2
       [ (gogoproto.nullable) = false ];
   // odds_type is the type of odds that are going to be placed
   // such as decimal, fraction, moneyline.
-  merlinnetwork.merlin.bet.OddsType odds_type = 3;
+  furynetwork.fury.bet.OddsType odds_type = 3;
 }

@@ -1,13 +1,13 @@
 syntax = "proto3";
-package merlinnetwork.merlin.ovm;
+package furynetwork.fury.ovm;
 
 import "gogoproto/gogo.proto";
-import "merlin/ovm/params.proto";
-import "merlin/ovm/key_vault.proto";
-import "merlin/ovm/proposal.proto";
-import "merlin/ovm/stats.proto";
+import "fury/ovm/params.proto";
+import "fury/ovm/key_vault.proto";
+import "fury/ovm/proposal.proto";
+import "fury/ovm/stats.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/ovm/types";
+option go_package = "github.com/furychain/fury/x/ovm/types";
 
 // GenesisState defines the ovm module's genesis state.
 message GenesisState {

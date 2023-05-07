@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/x/mint/types"
+	"github.com/furychain/fury/x/mint/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -6,9 +6,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/bet/keeper"
-	"github.com/merlin-network/merlin/x/bet/types"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/bet/keeper"
+	"github.com/furychain/fury/x/bet/types"
 )
 
 func setupMsgServerAndApp(t testing.TB) (*simappUtil.TestApp, *keeper.KeeperTest, types.MsgServer, sdk.Context, context.Context) {

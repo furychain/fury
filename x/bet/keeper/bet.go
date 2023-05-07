@@ -3,8 +3,8 @@ package keeper
 import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/utils"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/utils"
+	"github.com/furychain/fury/x/bet/types"
 )
 
 // SetBet sets a specific bet in the store

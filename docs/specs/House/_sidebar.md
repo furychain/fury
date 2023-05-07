@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [About MERLIN Network](../README.md)
+* [About FURY Network](../README.md)
 * [Modules](../README.md)
   * [Bet](../Bet/01_Overview.md)
   * [OVM](../OVM/01_Overview.md)

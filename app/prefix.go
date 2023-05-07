@@ -2,12 +2,12 @@ package app
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/app/params"
+	"github.com/furychain/fury/app/params"
 )
 
 const (
 	// AccountAddressPrefix prefix used for generating account address
-	AccountAddressPrefix = "merlin"
+	AccountAddressPrefix = "fury"
 )
 
 var (
@@ -34,7 +34,7 @@ func SetConfig() {
 	if err != nil {
 		panic(err)
 	}
-	err = sdk.RegisterDenom(params.BaseCoinUnit, sdk.NewDecWithPrec(1, params.MERLINExponent))
+	err = sdk.RegisterDenom(params.BaseCoinUnit, sdk.NewDecWithPrec(1, params.FURYExponent))
 	if err != nil {
 		panic(err)
 	}

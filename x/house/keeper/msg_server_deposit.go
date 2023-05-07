@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/types"
 )
 
 // Deposit performs deposit operation to participate as a house in a specific market/order book

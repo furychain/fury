@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/merlin-network/merlin/testutil/network"
-	"github.com/merlin-network/merlin/testutil/nullify"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/bet/client/cli"
-	"github.com/merlin-network/merlin/x/bet/types"
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/testutil/network"
+	"github.com/furychain/fury/testutil/nullify"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/bet/client/cli"
+	"github.com/furychain/fury/x/bet/types"
+	markettypes "github.com/furychain/fury/x/market/types"
 )
 
 const testMarketUID = "5db09053-2901-4110-8fb5-c14e21f8d555"

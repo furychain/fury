@@ -9,12 +9,12 @@ import (
 	"github.com/spf13/cast"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	merlintypes "github.com/merlin-network/merlin/types"
-	"github.com/merlin-network/merlin/x/bet/keeper"
-	"github.com/merlin-network/merlin/x/bet/types"
-	marketkeeper "github.com/merlin-network/merlin/x/market/keeper"
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	furytypes "github.com/furychain/fury/types"
+	"github.com/furychain/fury/x/bet/keeper"
+	"github.com/furychain/fury/x/bet/types"
+	marketkeeper "github.com/furychain/fury/x/market/keeper"
+	markettypes "github.com/furychain/fury/x/market/types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -126,7 +126,7 @@ func placeTestBet(ctx sdk.Context, t testing.TB, tApp *simappUtil.TestApp, betUI
 	testCreator = simappUtil.TestParamUsers["user1"].Address.String()
 	wctx := sdk.WrapSDKContext(ctx)
 	betSrv := keeper.NewMsgServerImpl(tApp.BetKeeper)
-	testKyc := &merlintypes.KycDataPayload{
+	testKyc := &furytypes.KycDataPayload{
 		Approved: true,
 		ID:       testCreator,
 	}

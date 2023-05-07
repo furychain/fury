@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	"github.com/merlin-network/merlin/x/bet/types"
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/x/bet/types"
+	markettypes "github.com/furychain/fury/x/market/types"
 )
 
 // KeeperTest is a wrapper object for the keeper, It is being used

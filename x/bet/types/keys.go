@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/binary"
 
-	"github.com/merlin-network/merlin/utils"
+	"github.com/furychain/fury/utils"
 )
 
 var _ binary.ByteOrder

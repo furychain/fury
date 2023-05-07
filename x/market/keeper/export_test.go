@@ -2,7 +2,7 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/x/market/types"
 )
 
 // KeeperTest is a wrapper object for the keeper, It is being used

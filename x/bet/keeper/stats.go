@@ -2,8 +2,8 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/utils"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/utils"
+	"github.com/furychain/fury/x/bet/types"
 )
 
 // SetBetStats sets bet statistics in the store

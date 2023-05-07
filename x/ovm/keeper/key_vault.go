@@ -2,7 +2,7 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 // SetKeyVault sets the key vault and overwrite the old values.

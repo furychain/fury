@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/merlin-network/merlin/consts"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/consts"
+	"github.com/furychain/fury/x/house/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/server"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/merlin-network/merlin/app"
-	"github.com/merlin-network/merlin/cmd/merlind/cmd"
+	"github.com/furychain/fury/app"
+	"github.com/furychain/fury/cmd/furyd/cmd"
 )
 
 func main() {

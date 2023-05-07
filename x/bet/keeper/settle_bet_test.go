@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/google/uuid"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/bet/types"
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/bet/types"
+	markettypes "github.com/furychain/fury/x/market/types"
 	"github.com/stretchr/testify/require"
 )
 

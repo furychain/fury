@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/x/market/types"
 )
 
 // ResolveMarket accepts ticket containing resolution markets and return response after processing

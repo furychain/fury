@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/merlin-network/merlin/utils"
+	"github.com/furychain/fury/utils"
 )
 
 const (

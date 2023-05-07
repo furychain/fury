@@ -2,8 +2,8 @@ package ovm
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/x/ovm/keeper"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/keeper"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis

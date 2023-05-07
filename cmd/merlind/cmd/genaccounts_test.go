@@ -9,15 +9,15 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keyring"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/cmd/merlind/cmd"
-	"github.com/merlin-network/merlin/testutil/network"
+	"github.com/furychain/fury/cmd/furyd/cmd"
+	"github.com/furychain/fury/testutil/network"
 	"github.com/stretchr/testify/require"
 )
 
 func TestAddGenesisAccountCmdPanic(t *testing.T) {
 	userHomeDir, err := os.UserHomeDir()
 	require.NoError(t, err)
-	defaultNodeHome := filepath.Join(userHomeDir, ".merlin")
+	defaultNodeHome := filepath.Join(userHomeDir, ".fury")
 	panicFunc := func() {
 		cmd.AddGenesisAccountCmd(defaultNodeHome)
 	}
@@ -36,9 +36,9 @@ func TestSampleCMD(t *testing.T) {
 
 	userHomeDir, err := os.UserHomeDir()
 	require.NoError(t, err)
-	defaultNodeHome := filepath.Join(userHomeDir, ".merlin")
+	defaultNodeHome := filepath.Join(userHomeDir, ".fury")
 
-	fields := []string{keyInfo.GetAddress().String(), "10000000umerlin"}
+	fields := []string{keyInfo.GetAddress().String(), "10000000ufury"}
 	for _, tc := range []struct {
 		desc string
 		args []string

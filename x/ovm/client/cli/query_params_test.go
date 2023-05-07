@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
-	"github.com/merlin-network/merlin/testutil/network"
-	"github.com/merlin-network/merlin/x/ovm/client/cli"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/testutil/network"
+	"github.com/furychain/fury/x/ovm/client/cli"
+	"github.com/furychain/fury/x/ovm/types"
 	"github.com/stretchr/testify/require"
 )
 

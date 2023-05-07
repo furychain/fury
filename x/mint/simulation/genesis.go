@@ -9,8 +9,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/merlin-network/merlin/app/params"
-	"github.com/merlin-network/merlin/x/mint/types"
+	"github.com/furychain/fury/app/params"
+	"github.com/furychain/fury/x/mint/types"
 )
 
 // Simulation parameter constants

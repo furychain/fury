@@ -1,33 +1,33 @@
 syntax = "proto3";
-package merlinnetwork.merlin.ovm;
+package furynetwork.fury.ovm;
 
 import "gogoproto/gogo.proto";
 import "cosmos/base/query/v1beta1/pagination.proto";
 import "google/api/annotations.proto";
-import "merlin/ovm/params.proto";
-import "merlin/ovm/proposal.proto";
+import "fury/ovm/params.proto";
+import "fury/ovm/proposal.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/ovm/types";
+option go_package = "github.com/furychain/fury/x/ovm/types";
 
 // Query defines the gRPC querier service.
 service Query {
   // Params queries the parameters of the module.
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/merlin/ovm/params";
+    option (google.api.http).get = "/fury/ovm/params";
   }
   // Queries a list of PubKeys items.
   rpc PubKeys(QueryPubKeysRequest) returns (QueryPubKeysResponse) {
-    option (google.api.http).get = "/merlin/ovm/pub_keys";
+    option (google.api.http).get = "/fury/ovm/pub_keys";
   }
   // Queries an proposal by id and status.
   rpc PublicKeysChangeProposal(QueryPublicKeysChangeProposalRequest)
       returns (QueryPublicKeysChangeProposalResponse) {
-    option (google.api.http).get = "/merlin/ovm/pubkeys_proposal/{status}/{id}";
+    option (google.api.http).get = "/fury/ovm/pubkeys_proposal/{status}/{id}";
   }
   // Queries a list of proposal items by status.
   rpc PublicKeysChangeProposals(QueryPublicKeysChangeProposalsRequest)
       returns (QueryPublicKeysChangeProposalsResponse) {
-    option (google.api.http).get = "/merlin/ovm/pubkeys_proposals/{status}";
+    option (google.api.http).get = "/fury/ovm/pubkeys_proposals/{status}";
   }
 }
 

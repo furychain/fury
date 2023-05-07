@@ -1,9 +1,9 @@
 syntax = "proto3";
-package merlinnetwork.merlin.bet;
+package furynetwork.fury.bet;
 
-import "merlin/bet/place_bet_fields.proto";
+import "fury/bet/place_bet_fields.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/bet/types";
+option go_package = "github.com/furychain/fury/x/bet/types";
 
 // Msg defines the Msg service.
 service Msg {

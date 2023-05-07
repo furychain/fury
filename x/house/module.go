@@ -15,9 +15,9 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/merlin-network/merlin/x/house/client/cli"
-	"github.com/merlin-network/merlin/x/house/keeper"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/client/cli"
+	"github.com/furychain/fury/x/house/keeper"
+	"github.com/furychain/fury/x/house/types"
 )
 
 // AppModuleBasic defines the basic application module used by the house module.

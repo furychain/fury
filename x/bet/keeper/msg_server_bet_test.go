@@ -7,11 +7,11 @@ import (
 	"github.com/golang-jwt/jwt"
 	"github.com/stretchr/testify/require"
 
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	merlintypes "github.com/merlin-network/merlin/types"
-	"github.com/merlin-network/merlin/x/bet/types"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	furytypes "github.com/furychain/fury/types"
+	"github.com/furychain/fury/x/bet/types"
 
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	markettypes "github.com/furychain/fury/x/market/types"
 )
 
 func TestBetMsgServerPlaceBet(t *testing.T) {
@@ -51,7 +51,7 @@ func TestBetMsgServerPlaceBet(t *testing.T) {
 		selectedBetOdds := *testSelectedBetOdds
 
 		selectedBetOdds.MarketUID = ""
-		testKyc := &merlintypes.KycDataPayload{
+		testKyc := &furytypes.KycDataPayload{
 			Approved: true,
 			ID:       creator.Address.String(),
 		}
@@ -79,7 +79,7 @@ func TestBetMsgServerPlaceBet(t *testing.T) {
 	})
 
 	t.Run("No matching market", func(t *testing.T) {
-		testKyc := &merlintypes.KycDataPayload{
+		testKyc := &furytypes.KycDataPayload{
 			Approved: true,
 			ID:       creator.Address.String(),
 		}
@@ -108,7 +108,7 @@ func TestBetMsgServerPlaceBet(t *testing.T) {
 	})
 
 	t.Run("Success", func(t *testing.T) {
-		testKyc := &merlintypes.KycDataPayload{
+		testKyc := &furytypes.KycDataPayload{
 			Approved: true,
 			ID:       creator.Address.String(),
 		}

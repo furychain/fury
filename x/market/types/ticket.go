@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/mrz1836/go-sanitize"
-	"github.com/merlin-network/merlin/utils"
+	"github.com/furychain/fury/utils"
 	"github.com/spf13/cast"
 )
 

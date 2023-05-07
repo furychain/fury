@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/spf13/cast"
 
-	"github.com/merlin-network/merlin/testutil/nullify"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/bet/keeper"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/testutil/nullify"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/bet/keeper"
+	"github.com/furychain/fury/x/bet/types"
 	"github.com/stretchr/testify/require"
 )
 

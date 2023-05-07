@@ -12,10 +12,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/merlin-network/merlin/testutil/network"
-	"github.com/merlin-network/merlin/testutil/nullify"
-	"github.com/merlin-network/merlin/x/market/client/cli"
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/testutil/network"
+	"github.com/furychain/fury/testutil/nullify"
+	"github.com/furychain/fury/x/market/client/cli"
+	"github.com/furychain/fury/x/market/types"
 )
 
 func networkWithMarketObjects(t *testing.T, n int) (*network.Network, []types.Market) {

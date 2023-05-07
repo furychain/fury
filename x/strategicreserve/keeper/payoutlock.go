@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/merlin-network/merlin/utils"
+	"github.com/furychain/fury/utils"
 )
 
 // SetPayoutLock sets a lock for the payout element

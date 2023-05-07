@@ -7,8 +7,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/merlin-network/merlin/x/ovm/keeper"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/x/ovm/keeper"
+	"github.com/furychain/fury/x/ovm/types"
 )
 
 // SimulateMsgChangePubkeysListProposal simulates MsgChangePubkeysListProposal message registration

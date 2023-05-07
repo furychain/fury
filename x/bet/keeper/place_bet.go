@@ -3,8 +3,8 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/x/bet/types"
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/x/bet/types"
+	markettypes "github.com/furychain/fury/x/market/types"
 	"github.com/spf13/cast"
 )
 

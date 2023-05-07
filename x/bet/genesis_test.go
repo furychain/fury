@@ -3,10 +3,10 @@ package bet_test
 import (
 	"testing"
 
-	"github.com/merlin-network/merlin/testutil/nullify"
-	simappUtil "github.com/merlin-network/merlin/testutil/simapp"
-	"github.com/merlin-network/merlin/x/bet"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/testutil/nullify"
+	simappUtil "github.com/furychain/fury/testutil/simapp"
+	"github.com/furychain/fury/x/bet"
+	"github.com/furychain/fury/x/bet/types"
 	"github.com/stretchr/testify/require"
 )
 

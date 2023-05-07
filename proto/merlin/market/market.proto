@@ -1,10 +1,10 @@
 syntax = "proto3";
-package merlinnetwork.merlin.market;
+package furynetwork.fury.market;
 
 import "gogoproto/gogo.proto";
-import "merlin/market/odds.proto";
+import "fury/market/odds.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/market/types";
+option go_package = "github.com/furychain/fury/x/market/types";
 
 // Market is the representation of the market to be stored in
 // the market state.

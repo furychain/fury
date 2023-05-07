@@ -1,9 +1,9 @@
 syntax = "proto3";
-package merlinnetwork.merlin.mint;
+package furynetwork.fury.mint;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/mint/types";
+option go_package = "github.com/furychain/fury/x/mint/types";
 
 // Phase defines the phase parameters for the module.
 message Phase {

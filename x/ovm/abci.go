@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/x/ovm/keeper"
+	"github.com/furychain/fury/x/ovm/keeper"
 )
 
 // EndBlocker settles the active bets of resolved markets

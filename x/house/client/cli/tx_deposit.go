@@ -9,7 +9,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/types"
 	"github.com/spf13/cobra"
 )
 
@@ -22,7 +22,7 @@ func CmdDeposit() *cobra.Command {
 			fmt.Sprintf(`Deposit tokens in a market order book to be the house.
 
 				Example:
-				$ %s tx house deposit bc79a72c-ad7e-4cf5-91a2-98af2751e812 1000umerlin {ticket string} --from mykey
+				$ %s tx house deposit bc79a72c-ad7e-4cf5-91a2-98af2751e812 1000ufury {ticket string} --from mykey
 				`,
 				version.AppName,
 			),

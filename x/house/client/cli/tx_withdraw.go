@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/merlin-network/merlin/x/house/types"
-	srtypes "github.com/merlin-network/merlin/x/strategicreserve/types"
+	"github.com/furychain/fury/x/house/types"
+	srtypes "github.com/furychain/fury/x/strategicreserve/types"
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 )

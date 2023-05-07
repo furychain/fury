@@ -17,12 +17,12 @@ import (
 	stakingKeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	"github.com/cosmos/cosmos-sdk/x/staking/teststaking"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/merlin-network/merlin/app"
-	"github.com/merlin-network/merlin/app/params"
-	"github.com/merlin-network/merlin/utils"
-	mintmoduletypes "github.com/merlin-network/merlin/x/mint/types"
-	ovmtypes "github.com/merlin-network/merlin/x/ovm/types"
-	strategicreservetypes "github.com/merlin-network/merlin/x/strategicreserve/types"
+	"github.com/furychain/fury/app"
+	"github.com/furychain/fury/app/params"
+	"github.com/furychain/fury/utils"
+	mintmoduletypes "github.com/furychain/fury/x/mint/types"
+	ovmtypes "github.com/furychain/fury/x/ovm/types"
+	strategicreservetypes "github.com/furychain/fury/x/strategicreserve/types"
 	"github.com/spf13/cast"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
@@ -32,9 +32,9 @@ import (
 	tmdb "github.com/tendermint/tm-db"
 )
 
-// TestApp is used as a container of the merlin app
+// TestApp is used as a container of the fury app
 type TestApp struct {
-	app.MerlinApp
+	app.FuryApp
 }
 
 // Options defines options related to simapp initialization
@@ -46,12 +46,12 @@ type Options struct {
 func setup(withGenesis bool, invCheckPeriod uint) (*TestApp, app.GenesisState) {
 	db := tmdb.NewMemDB()
 	encCdc := app.MakeEncodingConfig()
-	appInstance := app.NewMerlinApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, "", invCheckPeriod, encCdc,
+	appInstance := app.NewFuryApp(log.NewNopLogger(), db, nil, true, map[int64]bool{}, "", invCheckPeriod, encCdc,
 		sdksimapp.EmptyAppOptions{})
 	if withGenesis {
-		return &TestApp{MerlinApp: *appInstance}, app.NewDefaultGenesisState()
+		return &TestApp{FuryApp: *appInstance}, app.NewDefaultGenesisState()
 	}
-	return &TestApp{MerlinApp: *appInstance}, app.GenesisState{}
+	return &TestApp{FuryApp: *appInstance}, app.GenesisState{}
 }
 
 // Setup initializes genesis the same as simapp

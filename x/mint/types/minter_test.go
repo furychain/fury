@@ -6,7 +6,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/merlin-network/merlin/x/mint/types"
+	"github.com/furychain/fury/x/mint/types"
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -15,7 +15,7 @@ import (
 func TestPhaseInflation(t *testing.T) {
 	params := types.DefaultParams()
 	// Governing Mechanism:
-	// merlin tokenomics
+	// fury tokenomics
 
 	tests := []struct {
 		phase        int

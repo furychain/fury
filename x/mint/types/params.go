@@ -8,7 +8,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/merlin-network/merlin/app/params"
+	"github.com/furychain/fury/app/params"
 	"gopkg.in/yaml.v2"
 )
 

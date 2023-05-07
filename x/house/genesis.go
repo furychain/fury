@@ -3,8 +3,8 @@ package house
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/merlin-network/merlin/x/house/keeper"
-	"github.com/merlin-network/merlin/x/house/types"
+	"github.com/furychain/fury/x/house/keeper"
+	"github.com/furychain/fury/x/house/types"
 )
 
 // InitGenesis sets the deposits and parameters for the provided keeper.

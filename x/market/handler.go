@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/x/market/keeper"
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/x/market/keeper"
+	"github.com/furychain/fury/x/market/types"
 )
 
 // NewHandler ...

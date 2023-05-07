@@ -2,8 +2,8 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	bettypes "github.com/merlin-network/merlin/x/bet/types"
-	markettypes "github.com/merlin-network/merlin/x/market/types"
+	bettypes "github.com/furychain/fury/x/bet/types"
+	markettypes "github.com/furychain/fury/x/market/types"
 )
 
 // AccountKeeper defines the expected account keeper methods.

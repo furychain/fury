@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	"github.com/merlin-network/merlin/app"
-	"github.com/merlin-network/merlin/cmd/merlind/cmd"
+	"github.com/furychain/fury/app"
+	"github.com/furychain/fury/cmd/furyd/cmd"
 	"github.com/stretchr/testify/require"
 )
 

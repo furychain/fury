@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/merlin-network/merlin/x/market/types"
+	"github.com/furychain/fury/x/market/types"
 )
 
 type msgServer struct {

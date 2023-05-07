@@ -1,17 +1,17 @@
 syntax = "proto3";
-package merlinnetwork.merlin.mint;
+package furynetwork.fury.mint;
 
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
-import "merlin/mint/params.proto";
+import "fury/mint/params.proto";
 
-option go_package = "github.com/merlin-network/merlin/x/mint/types";
+option go_package = "github.com/furychain/fury/x/mint/types";
 
 // Query defines the gRPC querier service.
 service Query {
   // Params queries the parameters of the module.
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/merlin/mint/params";
+    option (google.api.http).get = "/fury/mint/params";
   }
 
   // Inflation returns the current minting inflation value.

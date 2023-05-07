@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/merlin-network/merlin/testutil/sample"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/testutil/sample"
+	"github.com/furychain/fury/x/bet/types"
 	"github.com/stretchr/testify/require"
 )
 

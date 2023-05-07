@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/app/params"
-	"github.com/merlin-network/merlin/x/mint/types"
+	"github.com/furychain/fury/app/params"
+	"github.com/furychain/fury/x/mint/types"
 	"github.com/stretchr/testify/require"
 )
 
@@ -21,7 +21,7 @@ func TestParamsYML(t *testing.T) {
 	}
 
 	ymlStr := param.String()
-	require.Equal(t, "mintdenom: umerlin\nblocks_per_year: 10\nphases:\n- inflation: \"10.000000000000000000\"\n  year_coefficient: \"1.000000000000000000\"\nexclude_amount: \"100\"\n", ymlStr)
+	require.Equal(t, "mintdenom: ufury\nblocks_per_year: 10\nphases:\n- inflation: \"10.000000000000000000\"\n  year_coefficient: \"1.000000000000000000\"\nexclude_amount: \"100\"\n", ymlStr)
 }
 
 func TestIsPhaseAtStep(t *testing.T) {

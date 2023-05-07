@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/merlin-network/merlin/consts"
-	"github.com/merlin-network/merlin/testutil/nullify"
-	"github.com/merlin-network/merlin/x/ovm/types"
+	"github.com/furychain/fury/consts"
+	"github.com/furychain/fury/testutil/nullify"
+	"github.com/furychain/fury/x/ovm/types"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

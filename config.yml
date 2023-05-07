@@ -1,27 +1,27 @@
 version: 1
 accounts:
   - name: treasury
-    coins: ["9000000000000umerlin"]
+    coins: ["9000000000000ufury"]
   - name: seed
-    coins: ["1000000000000umerlin"]
+    coins: ["1000000000000ufury"]
 validators:
   - name: treasury
-    bonded: "1000000000000umerlin"
+    bonded: "1000000000000ufury"
 genesis:
   app_state:
     bank:
       balances:
-        - address: "merlin1kypq29kggkextekt869pwpfukj6lsw38c8a43w"
-          coins: [{"denom": "umerlin", "amount": "500000000000"}]
+        - address: "fury1kypq29kggkextekt869pwpfukj6lsw38c8a43w"
+          coins: [{"denom": "ufury", "amount": "500000000000"}]
       supply:
-        - denom: "umerlin"
+        - denom: "ufury"
           amount: "500000000000"
     staking:
       params:
-        bond_denom: "umerlin"
+        bond_denom: "ufury"
     crisis:
       constant_fee:
-        denom: "umerlin"
+        denom: "ufury"
         amount: "1000"
     ovm:
       key_vault:
@@ -36,7 +36,7 @@ genesis:
         ]
     gov:
       deposit_params:
-        min_deposit: [{ amount: "1", denom: "umerlin" }]
+        min_deposit: [{ amount: "1", denom: "ufury" }]
     mint:
       minter:
         phase_provisions: "100000000000000.000000000000000000"
@@ -44,7 +44,7 @@ genesis:
         phase_step: "1"
         truncated_tokens: "0"
       params:
-        mint_denom: "umerlin"
+        mint_denom: "ufury"
         blocks_per_year: "100"
         phases:
           [

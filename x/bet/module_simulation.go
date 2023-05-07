@@ -10,9 +10,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/merlin-network/merlin/testutil/sample"
-	betsimulation "github.com/merlin-network/merlin/x/bet/simulation"
-	"github.com/merlin-network/merlin/x/bet/types"
+	"github.com/furychain/fury/testutil/sample"
+	betsimulation "github.com/furychain/fury/x/bet/simulation"
+	"github.com/furychain/fury/x/bet/types"
 )
 
 // avoid unused import issue
